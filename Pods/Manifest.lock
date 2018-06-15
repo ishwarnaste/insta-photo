@@ -1,0 +1,16 @@
+PODS:
+  - SKPhotoBrowser (5.1.0)
+
+DEPENDENCIES:
+  - SKPhotoBrowser
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SKPhotoBrowser
+
+SPEC CHECKSUMS:
+  SKPhotoBrowser: c20c1da34d737b4e3e101feead6c8dd92ebf860a
+
+PODFILE CHECKSUM: f81ce00d0f1e738eb71ec80323dafbbd2c965751
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E260A36A755D393B8D689D7CA938D2D /* SKPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */; };
+		28CB64C9C3B66A87F41213625BC8ADDB /* SKDetectingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */; };
+		383288D05BF088C17A29B1A26629D072 /* SKPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF1F5FD9D446D2A85C1C10FB7E41573 /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */; };
+		403E0845D472D085978E212C918281EC /* SKZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */; };
+		46FDD83FB18005AFC695FFC6E149CE5B /* SKPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */; };
+		5D4DC5053CF3A784BD4A18C77FEF21AD /* SKPhotoBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */; };
+		60644A70238F734B7844FA488B589D8E /* SKAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */; };
+		60B29F362750D48933FE49C8E9A41DD8 /* SKCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */; };
+		71E5ACA40CF05DFC34C4D705C5AD271F /* SKPaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */; };
+		723DB236BFFD7F449FC647EB9D046CEF /* UIApplication+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */; };
+		8031A0268277930CAD0960D8F9B7C844 /* SKCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */; };
+		81754E3566378BA88BCA63B73D1482D0 /* SKActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */; };
+		849954ADAC1C3DED5191A78DABE45843 /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */; };
+		9007DA80E40123DB5FD62E4CB1E5B6B4 /* SKMesurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */; };
+		9240A1990BD20A00813B294625682B68 /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */; };
+		9AD39FA1A1FA58C2E6586EAA034D3E3F /* SKPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */; };
+		9FE809568FA7B3E7D05560BFDB8B526F /* SKPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */; };
+		AEA67C6A350B5D64C27A53A1F6ECB5BC /* SKPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */; };
+		B1D5CE567BADBFFCFCEC538C9CA64560 /* SKPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */; };
+		B4A2E88C25D1E2BEB30AB7370A5F0FCC /* Pods-cook-pad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 377E725F77544160AAFBFEC9355C9093 /* Pods-cook-pad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B514EAAB2649A3D311F76A9A3A29E448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		B66782F36BB8E50BC6204B94B6BF2A61 /* SKDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */; };
+		BB8FC73EB39ABFC672C0B2CACEDF3E3A /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */; };
+		C7213785B12DFA64B64A3B235494F248 /* SKButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */; };
+		CC18B20B5B20CE8B6E8A23C8986B98F8 /* Pods-cook-pad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 108B9B7CED4E526C7FDEAD5443837F4C /* Pods-cook-pad-dummy.m */; };
+		CF2F67B90D14F93E71E9A644A9CF57C4 /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */; };
+		F0D476EBC663CE2507021F1B6478260C /* SKPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F806000843B74A7E9675651A65EB46EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		FB1BE863ED2D6DD4D3C18BB828C05054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		FBB61CF927708E6DD546C3B61F1DDDBB /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8762491D00B7A59E3A6BB2B7891F40FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEBEB733D60F132046F68F7E2044AB6;
+			remoteInfo = SKPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPaginationView.swift; path = SKPhotoBrowser/SKPaginationView.swift; sourceTree = "<group>"; };
+		108B9B7CED4E526C7FDEAD5443837F4C /* Pods-cook-pad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cook-pad-dummy.m"; sourceTree = "<group>"; };
+		12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPhotoBrowser.h; path = SKPhotoBrowser/SKPhotoBrowser.h; sourceTree = "<group>"; };
+		14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPhotoBrowser.xcconfig; sourceTree = "<group>"; };
+		1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingView.swift; path = SKPhotoBrowser/SKDetectingView.swift; sourceTree = "<group>"; };
+		20486D2C6FF027EC388A391C607EDFBC /* Pods-cook-pad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cook-pad-resources.sh"; sourceTree = "<group>"; };
+		2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserDelegate.swift; path = SKPhotoBrowser/SKPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
+		30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActionView.swift; path = SKPhotoBrowser/SKActionView.swift; sourceTree = "<group>"; };
+		377E725F77544160AAFBFEC9355C9093 /* Pods-cook-pad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cook-pad-umbrella.h"; sourceTree = "<group>"; };
+		3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCache.swift; path = SKPhotoBrowser/SKCache.swift; sourceTree = "<group>"; };
+		485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserOptions.swift; path = SKPhotoBrowser/SKPhotoBrowserOptions.swift; sourceTree = "<group>"; };
+		53602DA506D3E44BA0B100652A833F9E /* SKPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
+		5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+UIWindow.swift"; path = "SKPhotoBrowser/UIApplication+UIWindow.swift"; sourceTree = "<group>"; };
+		7252991D360F4B3861C6DA5A6C6FDC36 /* Pods-cook-pad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cook-pad.modulemap"; sourceTree = "<group>"; };
+		78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMesurement.swift; path = SKPhotoBrowser/SKMesurement.swift; sourceTree = "<group>"; };
+		79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
+		7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotation.swift"; path = "SKPhotoBrowser/extensions/UIImage+Rotation.swift"; sourceTree = "<group>"; };
+		84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKIndicatorView.swift; path = SKPhotoBrowser/SKIndicatorView.swift; sourceTree = "<group>"; };
+		8892112F8BA07554F919F71354F7BC76 /* Pods-cook-pad-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cook-pad-frameworks.sh"; sourceTree = "<group>"; };
+		8C9554B3A0FABFEC4B591BB47823E4A1 /* Pods_cook_pad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cook_pad.framework; path = "Pods-cook-pad.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9843F2D9BF4CB690454ACFEE9B891B41 /* Pods-cook-pad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cook-pad-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5FEDF02B76237423CD3E5648E40DAD9 /* Pods-cook-pad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cook-pad.debug.xcconfig"; sourceTree = "<group>"; };
+		A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKZoomingScrollView.swift; path = SKPhotoBrowser/SKZoomingScrollView.swift; sourceTree = "<group>"; };
+		AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCacheable.swift; path = SKPhotoBrowser/SKCacheable.swift; sourceTree = "<group>"; };
+		B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCaptionView.swift; path = SKPhotoBrowser/SKCaptionView.swift; sourceTree = "<group>"; };
+		B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowser.swift; path = SKPhotoBrowser/SKPhotoBrowser.swift; sourceTree = "<group>"; };
+		B99A55E044B02922F2C5E42C20ACDB55 /* SKPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKPhotoBrowser.modulemap; sourceTree = "<group>"; };
+		B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingImageView.swift; path = SKPhotoBrowser/SKDetectingImageView.swift; sourceTree = "<group>"; };
+		BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKAnimator.swift; path = SKPhotoBrowser/SKAnimator.swift; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKToolbar.swift; path = SKPhotoBrowser/SKToolbar.swift; sourceTree = "<group>"; };
+		D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhoto.swift; path = SKPhotoBrowser/SKPhoto.swift; sourceTree = "<group>"; };
+		D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKButtons.swift; path = SKPhotoBrowser/SKButtons.swift; sourceTree = "<group>"; };
+		DAF696620EEA14EE42B6E4A51456A52D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPagingScrollView.swift; path = SKPhotoBrowser/SKPagingScrollView.swift; sourceTree = "<group>"; };
+		E07B3F4527D351E51303943B1C42AD3E /* Pods-cook-pad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cook-pad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5AC6DDA32909557FB34D4E3FF62B796 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPhotoBrowser.framework; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6ED7D76A322C4D83EE343BDA3FBAB31 /* Pods-cook-pad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cook-pad.release.xcconfig"; sourceTree = "<group>"; };
+		F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Radius.swift"; path = "SKPhotoBrowser/extensions/UIView+Radius.swift"; sourceTree = "<group>"; };
+		F999119847D651236FA5069CC9F91C90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SKPhotoBrowser.bundle; path = SKPhotoBrowser/SKPhotoBrowser.bundle; sourceTree = "<group>"; };
+		FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKLocalPhoto.swift; path = SKPhotoBrowser/SKLocalPhoto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3167AB946A39520B8A3F67854FF7DDF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1BE863ED2D6DD4D3C18BB828C05054 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2408FB687007940CC3443BAA67AE341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514EAAB2649A3D311F76A9A3A29E448 /* Foundation.framework in Frameworks */,
+				F806000843B74A7E9675651A65EB46EB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9B0C3D7B748D34849F791E4639B353 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1A5E775CA15D27D4FA5C2C490568FF92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE46BF34BD31ADAF7EA87CABD752362 /* SKPhotoBrowser */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F31C670495C6F668B38EAD0D3822020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C9554B3A0FABFEC4B591BB47823E4A1 /* Pods_cook_pad.framework */,
+				E5AC6DDA32909557FB34D4E3FF62B796 /* SKPhotoBrowser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45933EA500346ACD1EEE72F43853F4A6 /* Pods-cook-pad */ = {
+			isa = PBXGroup;
+			children = (
+				DAF696620EEA14EE42B6E4A51456A52D /* Info.plist */,
+				7252991D360F4B3861C6DA5A6C6FDC36 /* Pods-cook-pad.modulemap */,
+				E07B3F4527D351E51303943B1C42AD3E /* Pods-cook-pad-acknowledgements.markdown */,
+				9843F2D9BF4CB690454ACFEE9B891B41 /* Pods-cook-pad-acknowledgements.plist */,
+				108B9B7CED4E526C7FDEAD5443837F4C /* Pods-cook-pad-dummy.m */,
+				8892112F8BA07554F919F71354F7BC76 /* Pods-cook-pad-frameworks.sh */,
+				20486D2C6FF027EC388A391C607EDFBC /* Pods-cook-pad-resources.sh */,
+				377E725F77544160AAFBFEC9355C9093 /* Pods-cook-pad-umbrella.h */,
+				A5FEDF02B76237423CD3E5648E40DAD9 /* Pods-cook-pad.debug.xcconfig */,
+				E6ED7D76A322C4D83EE343BDA3FBAB31 /* Pods-cook-pad.release.xcconfig */,
+			);
+			name = "Pods-cook-pad";
+			path = "Target Support Files/Pods-cook-pad";
+			sourceTree = "<group>";
+		};
+		4BE46BF34BD31ADAF7EA87CABD752362 /* SKPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */,
+				BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */,
+				D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */,
+				3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */,
+				AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */,
+				B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */,
+				B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */,
+				1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */,
+				84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */,
+				FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */,
+				78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */,
+				08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */,
+				DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */,
+				D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */,
+				12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */,
+				B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */,
+				2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */,
+				485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */,
+				CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */,
+				A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */,
+				5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */,
+				7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */,
+				F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */,
+				0D9B0C3D7B748D34849F791E4639B353 /* Resources */,
+				9F8E01465AB23A94F81DFCC6D2861A2B /* Support Files */,
+			);
+			name = SKPhotoBrowser;
+			path = SKPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1A5E775CA15D27D4FA5C2C490568FF92 /* Pods */,
+				1F31C670495C6F668B38EAD0D3822020 /* Products */,
+				9F554B90A18475BF82CDCD79AEF3D71E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F554B90A18475BF82CDCD79AEF3D71E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45933EA500346ACD1EEE72F43853F4A6 /* Pods-cook-pad */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F8E01465AB23A94F81DFCC6D2861A2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F999119847D651236FA5069CC9F91C90 /* Info.plist */,
+				B99A55E044B02922F2C5E42C20ACDB55 /* SKPhotoBrowser.modulemap */,
+				14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */,
+				5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */,
+				53602DA506D3E44BA0B100652A833F9E /* SKPhotoBrowser-prefix.pch */,
+				79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKPhotoBrowser";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56C4845A3412DC2C34E42C9DF91A0723 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D476EBC663CE2507021F1B6478260C /* SKPhotoBrowser-umbrella.h in Headers */,
+				383288D05BF088C17A29B1A26629D072 /* SKPhotoBrowser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E57BBA6A494E6495E8F03BDEB19A26D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A2E88C25D1E2BEB30AB7370A5F0FCC /* Pods-cook-pad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE6D877CD3FCC956C81C0B0DC9C49692 /* Pods-cook-pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3D12532E1E1CAA349AC7F2D54458DC /* Build configuration list for PBXNativeTarget "Pods-cook-pad" */;
+			buildPhases = (
+				1035616DD7D5DB51782ACE48AB8032F4 /* Sources */,
+				3167AB946A39520B8A3F67854FF7DDF7 /* Frameworks */,
+				9E57BBA6A494E6495E8F03BDEB19A26D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128488607CEA1332255FFBC6C2CF8375 /* PBXTargetDependency */,
+			);
+			name = "Pods-cook-pad";
+			productName = "Pods-cook-pad";
+			productReference = 8C9554B3A0FABFEC4B591BB47823E4A1 /* Pods_cook_pad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAEBEB733D60F132046F68F7E2044AB6 /* SKPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6C1194B42376E695C3C98F1D4386F0 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */;
+			buildPhases = (
+				E56C078E71F79757D17053C4FF13CD6A /* Sources */,
+				F2408FB687007940CC3443BAA67AE341 /* Frameworks */,
+				56C4845A3412DC2C34E42C9DF91A0723 /* Headers */,
+				8726F8204A11312A2FDD0FF1AB729E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKPhotoBrowser;
+			productName = SKPhotoBrowser;
+			productReference = E5AC6DDA32909557FB34D4E3FF62B796 /* SKPhotoBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1F31C670495C6F668B38EAD0D3822020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE6D877CD3FCC956C81C0B0DC9C49692 /* Pods-cook-pad */,
+				CAEBEB733D60F132046F68F7E2044AB6 /* SKPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8726F8204A11312A2FDD0FF1AB729E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D5CE567BADBFFCFCEC538C9CA64560 /* SKPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1035616DD7D5DB51782ACE48AB8032F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC18B20B5B20CE8B6E8A23C8986B98F8 /* Pods-cook-pad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56C078E71F79757D17053C4FF13CD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81754E3566378BA88BCA63B73D1482D0 /* SKActionView.swift in Sources */,
+				60644A70238F734B7844FA488B589D8E /* SKAnimator.swift in Sources */,
+				C7213785B12DFA64B64A3B235494F248 /* SKButtons.swift in Sources */,
+				FBB61CF927708E6DD546C3B61F1DDDBB /* SKCache.swift in Sources */,
+				60B29F362750D48933FE49C8E9A41DD8 /* SKCacheable.swift in Sources */,
+				8031A0268277930CAD0960D8F9B7C844 /* SKCaptionView.swift in Sources */,
+				28CB64C9C3B66A87F41213625BC8ADDB /* SKDetectingImageView.swift in Sources */,
+				B66782F36BB8E50BC6204B94B6BF2A61 /* SKDetectingView.swift in Sources */,
+				CF2F67B90D14F93E71E9A644A9CF57C4 /* SKIndicatorView.swift in Sources */,
+				3BF1F5FD9D446D2A85C1C10FB7E41573 /* SKLocalPhoto.swift in Sources */,
+				9007DA80E40123DB5FD62E4CB1E5B6B4 /* SKMesurement.swift in Sources */,
+				71E5ACA40CF05DFC34C4D705C5AD271F /* SKPaginationView.swift in Sources */,
+				1E260A36A755D393B8D689D7CA938D2D /* SKPagingScrollView.swift in Sources */,
+				46FDD83FB18005AFC695FFC6E149CE5B /* SKPhoto.swift in Sources */,
+				AEA67C6A350B5D64C27A53A1F6ECB5BC /* SKPhotoBrowser-dummy.m in Sources */,
+				9AD39FA1A1FA58C2E6586EAA034D3E3F /* SKPhotoBrowser.swift in Sources */,
+				9FE809568FA7B3E7D05560BFDB8B526F /* SKPhotoBrowserDelegate.swift in Sources */,
+				5D4DC5053CF3A784BD4A18C77FEF21AD /* SKPhotoBrowserOptions.swift in Sources */,
+				BB8FC73EB39ABFC672C0B2CACEDF3E3A /* SKToolbar.swift in Sources */,
+				403E0845D472D085978E212C918281EC /* SKZoomingScrollView.swift in Sources */,
+				723DB236BFFD7F449FC647EB9D046CEF /* UIApplication+UIWindow.swift in Sources */,
+				9240A1990BD20A00813B294625682B68 /* UIImage+Rotation.swift in Sources */,
+				849954ADAC1C3DED5191A78DABE45843 /* UIView+Radius.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128488607CEA1332255FFBC6C2CF8375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKPhotoBrowser;
+			target = CAEBEB733D60F132046F68F7E2044AB6 /* SKPhotoBrowser */;
+			targetProxy = 8762491D00B7A59E3A6BB2B7891F40FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1246E06378E6117C2B426B29ECDFFAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D1CD6FF52E7AFD8ADDF0F5DEBEF7509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ED7D76A322C4D83EE343BDA3FBAB31 /* Pods-cook-pad.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cook-pad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cook-pad/Pods-cook-pad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AE17769154BE1CE5AFE04FE7F0E91729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD221373F7087C52E1A9FDDE671748E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FEDF02B76237423CD3E5648E40DAD9 /* Pods-cook-pad.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cook-pad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cook-pad/Pods-cook-pad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6C1194B42376E695C3C98F1D4386F0 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE17769154BE1CE5AFE04FE7F0E91729 /* Debug */,
+				1246E06378E6117C2B426B29ECDFFAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3D12532E1E1CAA349AC7F2D54458DC /* Build configuration list for PBXNativeTarget "Pods-cook-pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD221373F7087C52E1A9FDDE671748E9 /* Debug */,
+				2D1CD6FF52E7AFD8ADDF0F5DEBEF7509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

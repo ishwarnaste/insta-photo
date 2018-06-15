@@ -1,0 +1,6 @@
+framework module Pods_cook_pad {
+  umbrella header "Pods-cook-pad-umbrella.h"
+
+  export *
+  module * { export * }
+}
